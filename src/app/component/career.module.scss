@@ -1,0 +1,89 @@
+.container { 
+    background-color: #141414;
+    color: #fff;
+    height: 1000px;
+}
+
+.alignment {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 120px 20px;
+
+}
+
+.history_wrap {
+    flex: 1;
+}
+
+.label {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.card_wrap {
+    flex: 2;
+    margin-top:15px;
+}
+
+.merror {
+    color: #141414;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;;
+}
+
+.project_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+
+
+}
+
+.project_title >span:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.project_title >span:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.merror>div:nth-child(2){
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo_icon {
+    width: 120px;
+    height: auto;
+}
+
+.logo_background {
+    background-color: #141414;
+    width: max-content;
+    padding: 10px;
+}
+
+.carousel_box {
+    flex:1;
+    height: max-content;
+    border: 1px solid red;
+}
+
+.desc_box {
+    flex: 1;
+    border: 1px solid blue;
+}

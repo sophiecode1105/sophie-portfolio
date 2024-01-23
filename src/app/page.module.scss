@@ -1,0 +1,85 @@
+.container {
+    background-color: #141414;
+    position: relative;
+}
+
+.alignment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 90px 20px 20px 20px;
+    color: #fff;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.paragraph {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button {
+    all: unset;
+    margin-top: 25px;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: rgb(103,254,179);
+    cursor: pointer;
+}
+
+.img_wrapper {
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.avartar_img {
+    padding: 40px;
+}
+.typescript {
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: auto;
+    height: 70px;
+    transform: rotate(270deg);
+}
+
+.javascript {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: auto;
+    height: 70px;
+    transform: rotate(290deg);
+}
+
+.angular {  
+    position: absolute;
+    height: 80px;
+    width: auto;
+    top: 5%;
+    left: 15%;
+    transform: rotate(330deg);
+
+}
+
+.react {
+    position: absolute;
+    height: 80px;
+    width: auto;
+    top: -6%;
+    left: 38%;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+

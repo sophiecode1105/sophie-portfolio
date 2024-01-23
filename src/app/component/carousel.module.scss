@@ -1,0 +1,32 @@
+.carousel_container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel_controller {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.carousel_image {
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s;
+}
+
+.arrow_button {
+    width: 20px;
+    height: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
